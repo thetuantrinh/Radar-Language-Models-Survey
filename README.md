@@ -8,12 +8,12 @@ This repository accompanies a survey that reviews recent progress in Radar–Lan
 
 This survey and repository aim to:
 
-Systematically organize existing work on Radar–Language Models and related multimodal radar–LLM systems
+- Systematically organize existing work on Radar–Language Models and related multimodal radar–LLM systems
 
-Categorize methods by radar modality, data representation, and language integration strategy
+- Categorize methods by radar modality, data representation, and language integration strategy
 
-Review model architectures, training paradigms, datasets, and evaluation protocols
+- Review model architectures, training paradigms, datasets, and evaluation protocols
 
-Summarize application domains including human sensing, robotics, autonomous systems, and defense
+- Summarize application domains including human sensing, robotics, autonomous systems
 
-Identify open challenges and future research directions toward interpretable and robust radar intelligence
+- Identify open challenges and future research directions toward interpretable and robust radar intelligence
