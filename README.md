@@ -4,9 +4,7 @@ Radar–Language Models (RLMs) integrate radar sensing with large language model
 
 This repository accompanies a survey that reviews recent progress in Radar–Language Models, covering radar modalities (FMCW, mmWave, UWB), common radar representations (range–Doppler, micro-Doppler, point clouds), and multimodal alignment strategies that connect radar observations to linguistic concepts.
 
-🎯 Scope & Contributions
-
-## Key Contributions
+## 🎯 Scope & Contributions
 
 The primary contributions of this survey are summarized as follows:
 
