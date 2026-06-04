@@ -6,17 +6,22 @@ This repository accompanies a survey that reviews recent progress in Radar–Lan
 
 🎯 Scope & Contributions
 
-This survey and repository aim to:
+## Key Contributions
 
-- Systematically organize existing work on Radar–Language Models and related multimodal radar–LLM systems
+The primary contributions of this survey are summarized as follows:
 
-- Categorize methods by radar modality, data representation, and language integration strategy
+### 1. Pioneering Synthesis
 
-- Review model architectures, training paradigms, datasets, and evaluation protocols
+We present the first comprehensive survey of **Radar-Language Models (RLMs)**, systematically reviewing recent advances at the intersection of radar sensing, large language models (LLMs), vision-language models (VLMs), and multimodal foundation models. The survey unifies emerging applications spanning human motion understanding, material recognition, crowd sensing, remote sensing, and integrated sensing and communication (ISAC).
 
-- Summarize application domains including human sensing, robotics, autonomous systems
+### 2. Comprehensive Taxonomy
 
-- Identify open challenges and future research directions toward interpretable and robust radar intelligence
+We propose a structured taxonomy that categorizes existing RLM approaches according to radar modality, signal representation, language integration strategy, and downstream task. This taxonomy highlights the interaction between physical sensing signals and large-scale language architectures, providing a practical framework for the design and analysis of multimodal radar-intelligence systems.
+
+### 3. Future Roadmap
+
+We identify key challenges and open research directions, including the radar-language alignment problem, the sparsity gap between radar and natural language representations, hardware heterogeneity, data scarcity, and real-time edge deployment constraints. Building on these observations, we outline a roadmap toward agentic, self-supervised, and cognitively intelligent radar systems powered by foundation models.
+
 
 ## Papers (23)
 
