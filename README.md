@@ -1,8 +1,6 @@
 📡 Radar–Language Models Survey
 This repo contains code for article: <span style="color:blue"><b> From mmWave Signals to Semantics: A Survey of Radar-Language Models for Perception, Reasoning, and Human-Computer Interaction </b></span> 
 
-Radar–Language Models (RLMs) integrate radar sensing with large language models (LLMs) to enable semantic understanding and reasoning over radar data. By combining the robustness of radar with language-driven inference, RLMs provide a promising solution for perception in challenging environments such as low visibility, occlusion, and electromagnetic interference.
-
 This repository accompanies a survey that reviews recent progress in Radar–Language Models, covering radar modalities (FMCW, mmWave, UWB), common radar representations (range–Doppler, micro-Doppler, point clouds), and multimodal alignment strategies that connect radar observations to linguistic concepts.
 
 ## 🎯 Scope & Contributions
