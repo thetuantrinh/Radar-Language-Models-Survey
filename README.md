@@ -2,8 +2,6 @@
 
 This repo contains code for article: <span style="color:blue"><b> From mmWave Signals to Semantics: A Survey of Radar-Language Models for Perception, Reasoning, and Human-Computer Interaction </b></span> 
 
-This repository accompanies a survey that reviews recent progress in Radar–Language Models, covering radar modalities (FMCW, mmWave, UWB), common radar representations (range–Doppler, micro-Doppler, point clouds), and multimodal alignment strategies that connect radar observations to linguistic concepts.
-
 ## 🎯 Scope & Contributions
 
 The primary contributions of this survey are summarized as follows:
@@ -22,6 +20,7 @@ We identify key challenges and open research directions, including the radar-lan
 
 
 ## Papers (23)
+This repository accompanies a survey that reviews recent progress in Radar–Language Models, covering radar modalities (FMCW, mmWave, UWB), common radar representations (range–Doppler, micro-Doppler, point clouds), and multimodal alignment strategies that connect radar observations to linguistic concepts.
 
 ### 2024
 
