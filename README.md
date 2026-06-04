@@ -17,3 +17,27 @@ This survey and repository aim to:
 - Summarize application domains including human sensing, robotics, autonomous systems
 
 - Identify open challenges and future research directions toward interpretable and robust radar intelligence
+
+## Papers (23)
+- [Talk2Radar: Bridging Natural Language with 4D mmWave Radar for 3D Referring Expression Comprehension](https://arxiv.org/abs/2405.12821)
+- [LLMCount: Enhancing Stationary mmWave Detection with Multimodal-LLM](https://arxiv.org/abs/2409.16209)
+- [Emerging Trends in Radar: Natural Language Processing](https://doi.org/10.1109/MAES.2025.3533946)
+- [RadarLLM: Empowering Large Language Models to Understand Human Motion from Millimeter-Wave Point Cloud Sequence](https://arxiv.org/abs/2504.09862)
+- [RadarPLM: Adapting Pre-trained Language Models for Marine Radar Target Detection by Selective Fine-tuning](https://arxiv.org/abs/2509.12089)
+- [When Marine Radar Target Detection Meets Pre-trained Large Language Models](https://doi.org/10.1109/IGARSS55030.2025.11313965)
+- [Large Language Models Empower Multimodal Integrated Sensing and Communication](https://doi.org/10.1109/MCOM.004.2400281)
+- [Can Large Language Models Identify Materials from Radar Signals?](https://doi.org/10.1145/3714394.3756289)
+- [Radar-Enhanced Robotic Material Perception with Vision Language Models](https://doi.org/10.1145/3680207.3765653)
+- [mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model](https://doi.org/10.1145/3749504)
+- [WirelessGPT: A Generative Foundation Model for Multi-task Integrated Sensing and Communication](https://doi.org/10.1109/JSAC.2025.3640156)
+- [MmExpert: Integrating Large Language Models for Comprehensive mmWave Data Synthesis and Understanding](https://doi.org/10.1145/3704413.3764420)
+- [Radar2Text: Generation of Linguistic Summary from mmWave Radar Signatures Using Fine-Tuned Multimodal Language Models](https://doi.org/10.1109/IMBioC63524.2025.10989725)
+- [Multi-modal Integrated Sensing and Communication in Internet of Things with Large Language Models](https://doi.org/10.1109/MIOT.2025.3575888)
+- [M2BeamLLM: Multimodal Sensing-Empowered mmWave Beam Prediction with Large Language Models](https://arxiv.org/abs/2506.14532)
+- [Multimodal Large Models Driven SAR Image Captioning: A Benchmark Dataset and Baselines](https://doi.org/10.1109/JSTARS.2025.3603036)
+- [Few-shot and Zero-shot Radar Active Jamming Recognition Based on a Vision-Language Model](https://doi.org/10.1109/TAES.2025.3586834)
+- [Sig2Text: A Vision-Language Model for Non-Cooperative Radar Signal Parsing](https://arxiv.org/abs/2503.15213)
+- [The Intelligent Evolution of Radar Signal Deinterleaving: A Systematic Review from Foundational Algorithms to Cognitive AI Frontiers](https://doi.org/10.3390/s26010248)
+- [RFSensingGPT: A Multi-modal RAG-Enhanced Framework for Integrated Sensing and Communications Intelligence in 6G Networks](https://doi.org/10.1109/TCCN.2025.3558069)
+- [SARLANG-1M: A Benchmark for Vision-Language Modeling in SAR Image Understanding](https://doi.org/10.1109/TGRS.2026.3652099)
+
