@@ -2,7 +2,7 @@
 
 This repo contains code for article: <span style="color:blue"><b> From mmWave Signals to Semantics: A Survey of Radar-Language Models for Perception, Reasoning, and Human-Computer Interaction </b></span> 
 
-## 🎯 Scope & Contributions
+# 🎯 Scope & Contributions
 
 The primary contributions of this survey are summarized as follows:
 
