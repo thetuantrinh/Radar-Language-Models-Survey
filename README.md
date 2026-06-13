@@ -12,17 +12,17 @@ these models go beyond conventional detection tasks to facilitate advanced seman
 
 The primary contributions of this survey are summarized as follows:
 
-### 1. Pioneering Synthesis
+* ### 1. Pioneering Synthesis
 
-We present the first comprehensive survey of **Radar-Language Models (RLMs)**, systematically reviewing recent advances at the intersection of radar sensing, large language models (LLMs), vision-language models (VLMs), and multimodal foundation models. The survey unifies emerging applications spanning human motion understanding, material recognition, crowd sensing, remote sensing, and integrated sensing and communication (ISAC).
+* We present the first comprehensive survey of **Radar-Language Models (RLMs)**, systematically reviewing recent advances at the intersection of radar sensing, large language models (LLMs), vision-language models (VLMs), and multimodal foundation models. The survey unifies emerging applications spanning human motion understanding, material recognition, crowd sensing, remote sensing, and integrated sensing and communication (ISAC).
 
-### 2. Comprehensive Taxonomy
+* ### 2. Comprehensive Taxonomy
 
-We propose a structured taxonomy that categorizes existing RLM approaches according to radar modality, signal representation, language integration strategy, and downstream task. This taxonomy highlights the interaction between physical sensing signals and large-scale language architectures, providing a practical framework for the design and analysis of multimodal radar-intelligence systems.
+* We propose a structured taxonomy that categorizes existing RLM approaches according to radar modality, signal representation, language integration strategy, and downstream task. This taxonomy highlights the interaction between physical sensing signals and large-scale language architectures, providing a practical framework for the design and analysis of multimodal radar-intelligence systems.
 
-### 3. Future Roadmap
+* ### 3. Future Roadmap
 
-We identify key challenges and open research directions, including the radar-language alignment problem, the sparsity gap between radar and natural language representations, hardware heterogeneity, data scarcity, and real-time edge deployment constraints. Building on these observations, we outline a roadmap toward agentic, self-supervised, and cognitively intelligent radar systems powered by foundation models.
+* We identify key challenges and open research directions, including the radar-language alignment problem, the sparsity gap between radar and natural language representations, hardware heterogeneity, data scarcity, and real-time edge deployment constraints. Building on these observations, we outline a roadmap toward agentic, self-supervised, and cognitively intelligent radar systems powered by foundation models.
 
 
 ## Papers (23)
