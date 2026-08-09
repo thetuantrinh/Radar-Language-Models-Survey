@@ -1,6 +1,6 @@
 # 📡 Radar–Language Models (RLMs) Survey
 
-Official repository for the survey paper:
+Official repository for the survey manuscript:
 **"Radar-Language Integration for Sensing Instrumentation: Signal Decoding, Measurement Uncertainty, and Multimodal Semantic Reasoning"**
 
 **Authors**: The Tuan Trinh, Khoa Nguyen Dang, Xuanque Nguyen, Minhhuy Le*
