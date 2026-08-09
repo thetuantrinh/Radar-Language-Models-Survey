@@ -16,7 +16,7 @@ Millimeter-wave (mmWave) and radar sensing instruments operate under severe phys
 ---
 
 <p align="center">
-  <img src="figs/Figure_1.png" width="95%" alt="Radar-to-Language Processing Pipeline">
+  <img src="DOC/images/RADAR-LLMs.png" width="95%" alt="Radar-to-Language Processing Pipeline">
   <br>
   <em>Overview of the Radar-to-Language pipeline. Raw mmWave radar signals are transformed into structured representations, aligned with language embeddings through multimodal learning, and processed by large language models to enable semantic perception, reasoning, and human-computer interaction.</em>
 </p>
@@ -36,7 +36,7 @@ Millimeter-wave (mmWave) and radar sensing instruments operate under severe phys
 ## 🗺️ Survey Structure
 
 <p align="center">
-  <img src="figs/Figure_2.png" width="95%" alt="Radar-Language Models Survey Organization">
+  <img src="DOC/images/structure.png" width="95%" alt="Radar-Language Models Survey Organization">
   <br>
   <em>High-level organization of this survey on Radar–Language Models, presenting foundational background, a unified taxonomy, datasets and evaluation methodologies, critical challenges, and future research opportunities.</em>
 </p>
@@ -46,7 +46,7 @@ Millimeter-wave (mmWave) and radar sensing instruments operate under severe phys
 ## 📡 Sensing Modalities Comparison
 
 <p align="center">
-  <img src="figs/Figure_3.png" width="95%" alt="Comparison of Sensing Modalities">
+  <img src="DOC/images/Figure_3.png" width="95%" alt="Comparison of Sensing Modalities">
   <br>
   <em>Comparison of sensing modalities for HCI and perception tasks (Vision vs. LiDAR vs. Radar across privacy, environmental robustness, spatial resolution, and hardware cost).</em>
 </p>
