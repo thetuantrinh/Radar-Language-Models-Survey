@@ -25,6 +25,16 @@ Millimeter-wave (mmWave) and radar sensing instruments operate under severe phys
 
 ---
 
+## 🗺️ Survey Structure
+
+<p align="center">
+  <img src="figs/Figure_2.png" width="95%" alt="Radar-Language Models Survey Organization">
+  <br>
+  <em>High-level organization of this survey on Radar–Language Models, presenting foundational background, a unified taxonomy, datasets and evaluation methodologies, critical challenges, and future research opportunities.</em>
+</p>
+
+---
+
 ## 🏗️ Cross-Modal Tokenization Paradigms Trade-Off Matrix
 
 | Tokenization Paradigm | Primary Representation | Attention Complexity | Phase Noise / Jitter Sensitivity | Edge Real-Time Suitability |
