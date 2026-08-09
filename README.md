@@ -3,8 +3,7 @@
 Official repository for the survey paper:
 **"Radar-Language Integration for Sensing Instrumentation: Signal Decoding, Measurement Uncertainty, and Multimodal Semantic Reasoning"**
 
-**Authors**: The Tuan Trinh, Khoa Nguyen Dang, Xuanque Nguyen, Minhhuy Le*  
-*Targeted for*: **IEEE Transactions on Instrumentation and Measurement** (IEEE TIM)
+**Authors**: The Tuan Trinh, Khoa Nguyen Dang, Xuanque Nguyen, Minhhuy Le*
 
 ---
 
@@ -112,19 +111,3 @@ Millimeter-wave (mmWave) and radar sensing instruments operate under severe phys
 | **RadarLLM-Motion** | 4D mmWave point cloud sequences | Human motion capture | Motion understanding | [GitHub Repo](https://github.com/Inowlzy/RadarLLM) |
 | **M²BeamLLM** | 77 GHz Range-Angle Maps + GPS + LiDAR | V2I Communication | mmWave Beam Prediction | [DeepSense 6G](https://deepsense6g.net/) |
 | **Sig2text** | STFT Magnitude Spectrograms | Non-cooperative Intercept (EW) | Symbolic modulation parsing | [GitHub Repo](https://github.com/Na-choneko/sig2text) |
-
----
-
-## 📝 Citation
-
-If you find this survey or repository useful in your research, please cite our paper:
-
-```bibtex
-@article{trinh2026radar,
-  title={Radar-Language Integration for Sensing Instrumentation: Signal Decoding, Measurement Uncertainty, and Multimodal Semantic Reasoning},
-  author={Trinh, The Tuan and Dang, Khoa Nguyen and Nguyen, Xuanque and Le, Minhhuy},
-  journal={IEEE Transactions on Instrumentation and Measurement},
-  year={2026},
-  publisher={IEEE}
-}
-```
