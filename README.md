@@ -43,16 +43,6 @@ Millimeter-wave (mmWave) and radar sensing instruments operate under severe phys
 
 ---
 
-## 📡 Sensing Modalities Comparison
-
-<p align="center">
-  <img src="DOC/images/Figure_3.png" width="95%" alt="Comparison of Sensing Modalities">
-  <br>
-  <em>Comparison of sensing modalities for HCI and perception tasks (Vision vs. LiDAR vs. Radar across privacy, environmental robustness, spatial resolution, and hardware cost).</em>
-</p>
-
----
-
 ## 🏗️ Cross-Modal Tokenization Paradigms Trade-Off Matrix
 
 | Tokenization Paradigm | Primary Representation | Attention Complexity | Phase Noise / Jitter Sensitivity | Edge Real-Time Suitability |
