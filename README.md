@@ -9,10 +9,6 @@
 **Official repository** for the IEEE Transactions on Instrumentation and Measurement (IEEE TIM) survey manuscript:  
 **"Radar Signals in the Large Language Era: A Systematic Review of Aperture Bounds, Uncertainty Reporting, and Embedded Deployment"**
 
-**Authors**: [The Tuan Trinh](https://orcid.org/0009-0009-7459-3797), [Khoa Nguyen Dang](https://orcid.org/0000-0002-6525-5245), [Xuanque Nguyen](https://orcid.org/0009-0001-2635-6553), [Minhhuy Le](https://orcid.org/0000-0001-6152-6215)\*  
-*\*Corresponding author: M. Le (`huy.leminh@phenikaa-uni.edu.vn`)*  
-*Faculty of Electrical and Electronic Engineering, PHENIKAA School of Engineering, PHENIKAA University, Hanoi, Vietnam*
-
 ---
 
 ## 📌 Abstract
