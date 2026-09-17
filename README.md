@@ -41,29 +41,11 @@ Radar instrumentation measures range, Doppler velocity, angle of arrival, and ma
 
 ## 🗺️ System Architecture & PRISMA Methodology
 
-<p align="center">
-  <img src="DOC/images/Figure_1.png" width="96%" alt="The Radar-to-Language Processing Pipeline">
-  <br>
-  <em><b>Fig. 1:</b> The radar-to-language processing pipeline across the three taxonomy axes: abstraction level (L1–L4), alignment mechanism (M1–M4b), and task class (T1–T6). Connector ribbon widths denote corpus density.</em>
-</p>
+* **Pipeline Architecture**: The radar-to-language processing pipeline spans three orthogonal taxonomy axes: abstraction level ($L1$–$L4$), cross-modal alignment mechanism ($M1$–$M4b$), and task class ($T1$–$T6$).
+* **PRISMA 2020 Protocol**: Systematic retrieval from OpenAlex (2020–2026), two-pass automated screening, eligibility assessment on criteria (i)–(iv), and the final 51 included RLM frameworks (detailed in [`code/prisma_assessment.csv`](./code/prisma_assessment.csv)).
+* **Physical Aperture Bounds**: Cross-range scale against azimuth aperture $M_{\mathrm{az}}$ across standoff distances, establishing the two-target Rayleigh beamforming limit vs. single-target CRLB at $\mathrm{SNR}=15\,\text{dB}$ (reproducible via [`code/make_fig_aperture.py`](./code/make_fig_aperture.py)).
+* **Traditional Domain Scoping**: Coverage of radar–language instantiations across traditional radar domains against screened background literature, analyzing the concentration in lexical tasks vs continuous regression.
 
-<p align="center">
-  <img src="DOC/images/Figure_2_PRISMA.png" width="96%" alt="PRISMA 2020 Flow Diagram">
-  <br>
-  <em><b>Fig. 2:</b> PRISMA 2020 flow diagram documenting systematic retrieval from OpenAlex (2020–2026), two-pass automated screening, eligibility assessment on criteria (i)–(iv), and the final 51 included RLM frameworks.</em>
-</p>
-
-<p align="center">
-  <img src="DOC/images/Figure_3_Aperture.png" width="96%" alt="What an Aperture Lets a Sentence Say">
-  <br>
-  <em><b>Fig. 3:</b> What an aperture lets a sentence say. Cross-range scale against azimuth aperture $M_{\mathrm{az}}$ across 4 standoff distances. <b>(a)</b> Two-target Rayleigh beamforming limit (separating objects); <b>(b)</b> Single-target CRLB at $\mathrm{SNR}=15\,\text{dB}$ (placing one object). The two differ by $40\times$ at $M=8$ and $134\times$ at $M=86$.</em>
-</p>
-
-<p align="center">
-  <img src="DOC/images/Figure_4_Domain_Scoping.png" width="96%" alt="Traditional Radar Domains Scoping Map">
-  <br>
-  <em><b>Fig. 4:</b> Scoping map of radar–language instantiations across traditional radar domains against screened background literature ($n_{\mathrm{scr}}$), showing concentration in lexical tasks vs continuous regression.</em>
-</p>
 
 ---
 
