@@ -1,9 +1,9 @@
 # 📡 Radar Signals in the Large Language Era: A Systematic Review of Aperture Bounds, Uncertainty Reporting, and Embedded Deployment
 
 [![IEEE Transactions on Instrumentation and Measurement](https://img.shields.io/badge/IEEE%20TIM-Survey%20Manuscript-blue.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19)
-[![Audited Frameworks](https://img.shields.io/badge/Audited%20Frameworks-51%20Total%20(33%20Inst%20%2B%2018%20SAR)-green.svg)](./code/corpus.py)
-[![PRISMA 2020 Protocol](https://img.shields.io/badge/PRISMA%202020-Guided%20Retrieval-orange.svg)](./code/prisma_assessment.csv)
-[![Reproducibility](https://img.shields.io/badge/Reproducibility-Code%20%26%20Data%20Released-purple.svg)](./code)
+[![Audited Frameworks](https://img.shields.io/badge/Audited%20Frameworks-51%20Total%20(33%20Inst%20%2B%2018%20SAR)-green.svg)](#-the-three-axis-taxonomy--coverage-matrix)
+[![PRISMA 2020 Protocol](https://img.shields.io/badge/PRISMA%202020-Guided%20Retrieval-orange.svg)](#-system-architecture--prisma-methodology)
+[![Reproducibility](https://img.shields.io/badge/Code%20%26%20Data-Coming%20Soon-yellow.svg)](./code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 **Official repository** for the IEEE Transactions on Instrumentation and Measurement (IEEE TIM) survey manuscript:  
@@ -42,8 +42,8 @@ Radar instrumentation measures range, Doppler velocity, angle of arrival, and ma
 ## 🗺️ System Architecture & PRISMA Methodology
 
 * **Pipeline Architecture**: The radar-to-language processing pipeline spans three orthogonal taxonomy axes: abstraction level ($L1$–$L4$), cross-modal alignment mechanism ($M1$–$M4b$), and task class ($T1$–$T6$).
-* **PRISMA 2020 Protocol**: Systematic retrieval from OpenAlex (2020–2026), two-pass automated screening, eligibility assessment on criteria (i)–(iv), and the final 51 included RLM frameworks (detailed in [`code/prisma_assessment.csv`](./code/prisma_assessment.csv)).
-* **Physical Aperture Bounds**: Cross-range scale against azimuth aperture $M_{\mathrm{az}}$ across standoff distances, establishing the two-target Rayleigh beamforming limit vs. single-target CRLB at $\mathrm{SNR}=15\,\text{dB}$ (reproducible via [`code/make_fig_aperture.py`](./code/make_fig_aperture.py)).
+* **PRISMA 2020 Protocol**: Systematic retrieval from OpenAlex (2020–2026), two-pass automated screening, eligibility assessment on criteria (i)–(iv), and the final 51 included RLM frameworks.
+* **Physical Aperture Bounds**: Cross-range scale against azimuth aperture $M_{\mathrm{az}}$ across standoff distances, establishing the two-target Rayleigh beamforming limit vs. single-target CRLB at $\mathrm{SNR}=15\,\text{dB}$.
 * **Traditional Domain Scoping**: Coverage of radar–language instantiations across traditional radar domains against screened background literature, analyzing the concentration in lexical tasks vs continuous regression.
 
 
@@ -293,28 +293,8 @@ For a comprehensive review and bibliography covering traditional mmWave radar si
 
 ## 🧪 Reproducibility & Open Science
 
-All corpus records, PRISMA evaluation decisions, statistical tests, and figure generation routines are provided in the [`./code`](./code) directory:
-
-```bash
-# Clone the repository
-git clone https://github.com/thetuantrinh/Radar-Language-Models-Survey.git
-cd Radar-Language-Models-Survey/code
-
-# Install minimal requirements
-pip install -r requirements.txt
-
-# 1. Regenerate Table II and Coverage Matrix
-python reproduce_tables.py
-
-# 2. Run Permutation Null Hypothesis Test (300k replicates)
-python taxonomy_null.py
-
-# 3. Compute Worked GUM Permittivity Uncertainty Budget
-python emit_gum.py
-
-# 4. Generate Aperture Bounds Plot (Rayleigh vs CRLB)
-python make_fig_aperture.py
-```
+> **Code & Data Status**: **Coming Soon** ⏳  
+> The complete reproduction suite, PRISMA evaluation logs, and metrological audit scripts are being prepared and will be released in the [`./code`](./code) directory upon formal publication/acceptance of the survey manuscript.
 
 ### Proposed Open Data Container Architecture ($\mathcal{D}_{\text{RLM}}$)
 

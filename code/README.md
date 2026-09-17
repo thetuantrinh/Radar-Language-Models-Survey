@@ -1,55 +1,29 @@
-# 🧪 Reproducible Code and Metrological Audit Artifacts
+# 🧪 Code & Metrological Audit Artifacts
 
-This directory contains the single-source-of-truth dataset and reproducible scripts that generate all numbers, tables, and physical derivations for the IEEE Transactions on Instrumentation and Measurement (IEEE TIM) survey:
-
+> **Status**: **Coming Soon** ⏳  
+> The complete reproduction codebase, PRISMA evaluation datasets, and metrological audit scripts will be made publicly available here upon publication / acceptance of our survey paper:
+> 
 > **"Radar Signals in the Large Language Era: A Systematic Review of Aperture Bounds, Uncertainty Reporting, and Embedded Deployment"**  
-> *The Tuan Trinh, Khoa Nguyen Dang, Xuanque Nguyen, Minhhuy Le\**
+> *The Tuan Trinh, Khoa Nguyen Dang, Xuanque Nguyen, Minhhuy Le\**  
+> *IEEE Transactions on Instrumentation and Measurement (IEEE TIM)*.
 
 ---
 
-## 📁 Directory Contents
+## 📦 Planned Release Artifacts
 
-* **`corpus.py`**: The single source of truth defining the analytical corpus of 51 Radar–Language Model (RLM) frameworks (33 instrumentation-side + 18 microwave remote-sensing / SAR frameworks), including Abstraction Level ($L1$–$L4$), Alignment Mechanism ($M1$–$M4b$), Task Class ($T1$–$T6$), and RF hardware specifications.
-* **`prisma_assessment.csv`**: The complete PRISMA 2020 screening and eligibility audit log across 360 examined records, documenting stage counts and explicit inclusion/exclusion decisions under criteria (i)–(iv).
-* **`corpus_meta.json`**: Bibliographical metadata (DOIs, titles, authors, venues, volumes) retrieved directly from OpenAlex and CrossRef for the audited corpus.
-* **`reproduce_tables.py`**: Emits the complete Markdown format of Table II (all 51 included systems) and the $L \times M$ coverage matrix with marginal distributions.
-* **`emit_gum.py`**: Computes the worked GUM (JCGM 100:2008) uncertainty budget for relative permittivity estimation ($\epsilon_r = 4$, $\Gamma = -0.333$) at 77 GHz, demonstrating expanded uncertainty $U_{95} = 1.59$ under single-frame measurement.
-* **`taxonomy_null.py`**: Implements the permutation null hypothesis test ($3 \times 10^5$ replicates) preserving marginal distributions, proving that coverage matrix sparsity is an artifact of marginals ($P = 0.435$) while the association between abstraction level and alignment mechanism is statistically significant ($P = 0.0002$, Cramér's $V = 0.45$).
-* **`make_fig_aperture.py`**: Generates the cross-range physical aperture bounds plot comparing single-target CRLB precision with two-target Rayleigh beamforming separation across array apertures ($M_{\mathrm{az}}$) and standoff distances ($R$).
-* **`requirements.txt`**: Minimal Python dependencies (`numpy`, `scipy`, `matplotlib`, `tabulate`).
+Upon acceptance and publication, the following artifacts and reproducibility tools will be released in this directory:
 
----
+* **Analytical Corpus (`corpus.py`, `corpus_meta.json`)**:
+  The complete single-source-of-truth dataset defining all 51 evaluated Radar–Language Model (RLM) frameworks (33 instrumentation-side + 18 microwave remote-sensing / SAR frameworks), including Abstraction Level ($L1$–$L4$), Alignment Mechanism ($M1$–$M4b$), Task Class ($T1$–$T6$), hardware specifications, and bibliographical metadata.
 
-## 🚀 Reproduction Instructions
+* **PRISMA 2020 Systematic Assessment Log (`prisma_assessment.csv`)**:
+  Full evaluation decisions across all 360 screened candidate papers documenting stage counts and explicit inclusion/exclusion rationales under criteria (i)–(iv).
 
-### 1. Environment Setup
+* **Taxonomy Permutation Null Test (`taxonomy_null.py`)**:
+  Stratified Monte Carlo permutation test routine ($3 \times 10^5$ replicates) preserving marginal distributions, evaluating coverage matrix sparsity and cross-modal association significance ($P = 0.0002$, Cramér's $V = 0.45$).
 
-```bash
-git clone https://github.com/thetuantrinh/Radar-Language-Models-Survey.git
-cd Radar-Language-Models-Survey/code
-pip install -r requirements.txt
-```
+* **GUM Permittivity Uncertainty Budget (`emit_gum.py`)**:
+  Worked JCGM 100:2008 metrological uncertainty budget calculation for 77 GHz relative permittivity estimation, establishing expanded uncertainty bounds ($U_{95} = 1.59$).
 
-### 2. Generate Coverage Matrix & Corpus Tables
-
-```bash
-python reproduce_tables.py
-```
-
-### 3. Run Permutation Null Test on Taxonomy Matrix
-
-```bash
-python taxonomy_null.py
-```
-
-### 4. Compute Worked GUM Permittivity Uncertainty Budget
-
-```bash
-python emit_gum.py
-```
-
-### 5. Generate Aperture Bounds Plot
-
-```bash
-python make_fig_aperture.py
-```
+* **Table & Figure Reproduction Tools (`reproduce_tables.py`, `make_fig_aperture.py`)**:
+  Automated scripts to regenerate Table II, the $L \times M$ coverage matrix with marginal distributions, and physical Rayleigh-vs-CRLB aperture resolution curves.
