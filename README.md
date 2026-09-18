@@ -30,48 +30,7 @@ Radar instrumentation measures range, Doppler velocity, angle of arrival, and ma
 * **PRISMA 2020 Protocol**: Systematic retrieval from OpenAlex (2020–2026), two-pass automated screening, eligibility assessment on criteria (i)–(iv), and the final 51 included RLM frameworks.
 * **Physical Aperture Bounds**: Cross-range scale against azimuth aperture $M_{\mathrm{az}}$ across standoff distances, establishing the two-target Rayleigh beamforming limit vs. single-target CRLB at $\mathrm{SNR}=15\,\text{dB}$.
 * **Traditional Domain Scoping**: Coverage of radar–language instantiations across traditional radar domains against screened background literature, analyzing the concentration in lexical tasks vs continuous regression.
-
-
----
-
-## 🏛️ The Three-Axis Taxonomy & Coverage Matrix
-
-The survey categorizes frameworks along three logically independent axes:
-* **Axis 1: Signal Abstraction Level ($L1$–$L4$)**
-  * **$L1$ (Raw Complex I/Q)**: ADC beat samples preserving full phase coherence ($n=3$).
-  * **$L2$ (2D Spectral Maps / Focused Imagery)**: Range-Doppler maps, micro-Doppler spectrograms, SAR magnitude imagery ($n=39$).
-    * **$L2a$ (Author-Derived)**: 21 frameworks where authors held coherent raw data and electively collapsed it.
-    * **$L2b$ (Distributed Product)**: 18 spaceborne SAR frameworks consuming agency-distributed magnitude products.
-  * **$L3$ (4D Spatial Point Clouds)**: Post-CFAR $(x, y, z, v_r)$ coordinates with inherited detector thresholds ($n=4$).
-  * **$L4$ (Physics-Distilled Scalars)**: Low-dimensional scattering descriptors ($\epsilon_r, \sigma, \Gamma$) with $O(1)$ token overhead ($n=5$).
-* **Axis 2: Cross-Modal Alignment Mechanism ($M1$–$M4b$)**
-  * **$M1$ (Contrastive Dual-Encoder)**: Shared latent space projection via contrastive loss; decoder-free inference ($n=9$).
-  * **$M2$ (Continuous Projection)**: Linear/MLP token projections into language embeddings; preserves continuous gradients ($n=23$).
-  * **$M3$ (Discrete Codebook Quantization)**: VQ-VAE vector quantization into discrete indices ($n=1$).
-  * **$M4a$ (Physics-Scalar Serialization + RAG)**: Deterministic parameter injection into structured prompts ($n=6$).
-  * **$M4b$ (Prompt Orchestration of Frozen Backbones)**: Multi-agent prompting over rendered radar images ($n=12$).
-* **Axis 3: Measurement Task Class ($T1$–$T6$)**
-  * **$T1$**: Detection, counting, and target recognition ($n=9$).
-  * **$T2$**: Spatial grounding and 3D referring expression comprehension ($n=2$).
-  * **$T3$**: Kinematic and behavioral natural-language description ($n=27$).
-  * **$T4$**: Intrinsic material property and dielectric parameter inference ($n=3$).
-  * **$T5$**: Non-cooperative waveform and modulation parsing ($n=6$).
-  * **$T6$**: Cognitive instrumentation, link configuration, and beam control ($n=4$).
-
-### Coverage Matrix: Abstraction Level ($L$) $\times$ Alignment Mechanism ($M$)
-
-| Abstraction Level (L) | M1 Contr. | M2 Proj. | M3 Code | M4a Scalar+RAG | M4b Prompt Orch. | Total |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **L1** Raw Complex I/Q | — | 2 | — | — | 1 | **3** |
-| **L2** 2D Spectral / Focused | 8 | 19 | — | 1 | 11 | **39** |
-| ↳ *L2a Author-Derived* (Coherent Data) | 4 | 11 | — | 1 | 5 | *21* |
-| ↳ *L2b Distributed Product* (Spaceborne SAR) | 4 | 8 | — | — | 6 | *18* |
-| **L3** 4D Point Cloud | 1 | 2 | 1 | — | — | **4** |
-| **L4** Physics Scalars | — | — | — | 5 | — | **5** |
-| **Total** | **9** | **23** | **1** | **6** | **12** | **51** |
-
-> **Statistical Note**: Under a marginal-preserving permutation null ($3\times 10^5$ replicates), the 10 empty cells are expected by chance ($P = 0.435$). However, a likelihood-ratio association test reveals that the axes are strongly and significantly correlated ($G = 42.1, P = 0.0002$, Cramér's $V = 0.45$).
-
+* 
 ---
 
 ## 📊 Comprehensive Benchmark Table: All 51 Audited Radar–Language Frameworks (2024–2026)
