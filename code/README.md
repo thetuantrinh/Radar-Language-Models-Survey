@@ -2,10 +2,6 @@
 
 > **Status**: **Coming Soon** ⏳  
 > The complete reproduction codebase, PRISMA evaluation datasets, and metrological audit scripts will be made publicly available here upon publication / acceptance of our survey paper:
-> 
-> **"Radar Signals in the Large Language Era: A Systematic Review of Aperture Bounds, Uncertainty Reporting, and Embedded Deployment"**  
-> *The Tuan Trinh, Khoa Nguyen Dang, Xuanque Nguyen, Minhhuy Le\**  
-> *IEEE Transactions on Instrumentation and Measurement (IEEE TIM)*.
 
 ---
 
