@@ -1,6 +1,5 @@
 # 📡 Radar Signals in the Large Language Era: A Systematic Review of Aperture Bounds, Uncertainty Reporting, and Embedded Deployment
 
-[![IEEE Transactions on Instrumentation and Measurement](https://img.shields.io/badge/IEEE%20TIM-Survey%20Manuscript-blue.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19)
 [![Audited Frameworks](https://img.shields.io/badge/Audited%20Frameworks-51%20Total%20(33%20Inst%20%2B%2018%20SAR)-green.svg)](#-the-three-axis-taxonomy--coverage-matrix)
 [![PRISMA 2020 Protocol](https://img.shields.io/badge/PRISMA%202020-Guided%20Retrieval-orange.svg)](#-system-architecture--prisma-methodology)
 [![Reproducibility](https://img.shields.io/badge/Code%20%26%20Data-Coming%20Soon-yellow.svg)](./code)
