@@ -5,7 +5,7 @@
 [![Reproducibility](https://img.shields.io/badge/Code%20%26%20Data-Coming%20Soon-yellow.svg)](./code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-**Official repository** for the IEEE Transactions on Instrumentation and Measurement (IEEE TIM) survey manuscript:  
+**Official repository** for the survey manuscript:  
 **"Radar Signals in the Large Language Era: A Systematic Review of Aperture Bounds, Uncertainty Reporting, and Embedded Deployment"**
 
 ---
